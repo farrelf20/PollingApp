@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/debate"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:id="@+id/image_calon"
+            android:background="@drawable/shape_kotak"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Nama Calon"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:textColor="#000"
+            android:id="@+id/calon_nama"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visi:"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_kotak"
+            android:text="Isi Visi"
+            android:id="@+id/visi"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Misi:"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isi Misi Adalah Sebuah akdjakdjaksdjaksjdkjas,daksjdolakjsdoaijsdoaijsoidjaosida,daskdjaoisjdaposijdpajsodhai"
+            android:id="@+id/misi"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:padding="7dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_kotak"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#e80920"
+            android:text="Vote"
+            android:textSize="20sp"
+            android:id="@+id/vote"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
